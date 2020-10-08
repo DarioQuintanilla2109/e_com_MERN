@@ -1,0 +1,19 @@
+{
+  "name": "new_mernecomm",
+  "version": "1.0.0",
+  "description": "MERN e commerce",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarioQuintanilla2109/e-commerceMERN.git"
+  },
+  "author": "Dario Quintanilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarioQuintanilla2109/e-commerceMERN/issues"
+  },
+  "homepage": "https://github.com/DarioQuintanilla2109/e-commerceMERN#readme"
+}
