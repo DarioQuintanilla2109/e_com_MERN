@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "description": "MERN e commerce",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DarioQuintanilla2109/e-commerceMERN.git"
+    "url": "https://github.com/DarioQuintanilla2109/e-commerceStore_MERN"
   },
   "author": "Dario Quintanilla",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DarioQuintanilla2109/e-commerceMERN/issues"
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/DarioQuintanilla2109/e-commerceMERN#readme"
+  "homepage": "https://github.com/DarioQuintanilla2109/e-commerceMERN#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
 }
